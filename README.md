@@ -1,2 +1,2 @@
 # TranslaSign
-Capstone Project 
+Capstone Project on American Hand Sign Language Detection
