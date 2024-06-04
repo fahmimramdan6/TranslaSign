@@ -11,7 +11,7 @@ Team ID: C241-PS507 <br>
 | Hanafi Husnipradja        | M011D4KY3266 | Machine Learning   | Padjadjaran University |<a href='https://www.linkedin.com/in/hanafi-husnipradja/'>LinkedIn</a>|
 | Muhamad Azriel Mauladin   | A476D4KY4556 | Mobile Development | Widyatama University   |<a href='https://www.linkedin.com/in/muhamad-azriel-13680621b'>LinkedIn</a>|
 | Tangana Vito Fortunata    | A170D4KY3418 | Mobile Development | STMIK LIKMI            |<a href='https://www.linkedin.com/in/tangana-vito-6720022ba'>LinkedIn</a>|
-| Sultan Zhorgy Pratama Hrp | C012D4KY0975 | Cloud Computing    | Telkom University      |<a href='/'>LinkedIn</a>|
+| Sultan Zhorgy Pratama Hrp | C012D4KY0975 | Cloud Computing    | Telkom University      |<a href='https://id.linkedin.com/in/sultan-zhorgy-pratama-hrp-8a4728285'>LinkedIn</a>|
 | Fauzan Maulana            | C012D4KY0567 | Cloud Computing    | Telkom University      |<a href='http://linkedin.com/in/fauzan-maulana-4090902a2'>LinkedIn</a>|
 
 
