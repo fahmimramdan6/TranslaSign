@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TranslaSign</string>
+    <string name="search_hint">Masukan Kata</string>
+</resources>
