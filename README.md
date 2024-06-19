@@ -14,6 +14,30 @@ Team ID: C241-PS507 <br>
 | Sultan Zhorgy Pratama Hrp | C012D4KY0975 | Cloud Computing    | Telkom University      |<a href='https://id.linkedin.com/in/sultan-zhorgy-pratama-hrp-8a4728285'>LinkedIn</a>|
 | Fauzan Maulana            | C012D4KY0567 | Cloud Computing    | Telkom University      |<a href='http://linkedin.com/in/fauzan-maulana-4090902a2'>LinkedIn</a>|
 
+## Documentation Structure
+### 1. Model Documentation
+#### Objective
+Building a model for hand sign detection based on image recognition.
+
+#### Steps Taken
+
+1. **Data Collection:**
+   - Sourced relevant datasets for model training.
+   - Public datasets such as American Sign Language (ASL) datasets.
+
+2. **Model Training:**
+   - Data Splitting: Dividing the data into training, validation, and test sets.
+   - Model Architecture Selection: Choosing and implementing the appropriate model architecture, such as CNN for feature extraction. We also do transfer learning method from mobilenet model that   seems fit with our classification scenarios.
+   - Training and Evaluation: Training the model using the training data and evaluating its performance with the validation and test data. Also we do some local testing using webcam to provide more accuracy especially in real life applications.
+
+3. **Model Creation:**
+   - Saved the trained model as .h5 file.
+   - Convert model from hdf-5 format into deployment fit format such as .tflite and json.
+
+4. **Model Utilization:**
+   - Fine-tuned normalization techniques for image preprocessing.
+
+
 
 
 
