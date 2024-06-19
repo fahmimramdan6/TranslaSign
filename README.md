@@ -27,7 +27,7 @@ Building a model for hand sign detection based on image recognition.
 ### 2. API Documentation
 ### 3. Mobile Documentation
 #### Objective
-Building a model for hand sign detection based on image recognition.
+Developing TranslaSign application for Android devices.
 
 #### Steps Taken
 
