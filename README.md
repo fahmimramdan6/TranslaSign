@@ -2,7 +2,7 @@
 This repository documents the process and components of the TranslaSign Application for Hand Sign Language Translation based on Hand Sign Detection.
 
 ## Documentation Structure
-### 1. Model Documentation
+## 1. Model Documentation
 #### Objective
 Building a model for hand sign detection based on image recognition.
 
@@ -24,7 +24,7 @@ Building a model for hand sign detection based on image recognition.
 4. *Model Utilization:*
    - Fine-tuned normalization techniques for image preprocessing.
 
-### 2. Cloud Documentation
+## 2. Cloud Documentation
 The TranslaSign application uses Google Cloud Platform to share and store data. The google cloud project is connected to firebase because the application also uses firebase authentication and firebase firestore
 
 #### Requirement
