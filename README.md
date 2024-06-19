@@ -33,7 +33,7 @@ The TranslaSign application uses Google Cloud Platform to share and store data. 
 - Google Cloud Account
 
 ## Cloud Architecture
-<p align="center"><img src="https://github.com/fahmimramdan6/TranslaSign/blob/main/Cloud%20Architecture.png"></p>
+<p align="center"><img src="TranslaSign Cloud Architecture.png"></p>
 <p align="center">Architecture Illustration</p>
 
 ## 1. Setup Google Cloud Platform
