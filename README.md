@@ -26,6 +26,23 @@ Building a model for hand sign detection based on image recognition.
 
 ### 2. API Documentation
 ### 3. Mobile Documentation
+#### Objective
+Building a model for hand sign detection based on image recognition.
+
+#### Steps Taken
+
+1. *UI Design*
+   - Design the application's interface using Figma.
+   - Using Material 3 Components for most of the design.
+
+2. *App Development*
+   - Developed the application using Android Studio with Native Kotlin as the programming language.
+   - Implemented a machine learning model to recognize live-camera sign language.
+   - Integrated data retrieval using API to handle authentication, video-to-text translation, and image database.
+
+3. *Testing and Optimization*
+   - Conducted thorough testing to ensure seamless functionality.
+   - Optimized the machine learning model used to enable hardware acceleration.
 
 ## Team Member
 All Team Member that contributed for the success of this project from discussing idea until part integration <br>
