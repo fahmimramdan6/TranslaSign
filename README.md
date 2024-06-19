@@ -41,7 +41,6 @@ The TranslaSign application uses Google Cloud Platform to share and store data. 
 - Enable the following API :
   -  App Engine API
   -  Cloud Run Admin API
-  -  Cloud Logging API
   -  Cloud Firestore API
 
 ## 2. Download Google Cloud SDK and Run Cloud Shell in Your Code Editor
