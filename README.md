@@ -27,40 +27,40 @@ Building a model for hand sign detection based on image recognition.
 ### 2. Cloud Documentation
 The TranslaSign application uses Google Cloud Platform to share and store data. The google cloud project is connected to firebase because the application also uses firebase authentication and firebase firestore
 
-## Requirement
+#### Requirement
 - Git
 - Code editor (Visual studio code)
 - Google Cloud Account
 
-## Cloud Architecture
+#### Cloud Architecture
 <p align="center"><img src="TranslaSign Cloud Architecture.png"></p>
 <p align="center">Architecture Illustration</p>
 
-## 1. Setup Google Cloud Platform
+#### 1. Setup Google Cloud Platform
 - Create Project & Configure Identity and Access Management
 - Enable the following API :
   -  App Engine API
   -  Cloud Run Admin API
   -  Cloud Firestore API
 
-## 2. Download Google Cloud SDK and Run Cloud Shell in Your Code Editor
+#### 2. Download Google Cloud SDK and Run Cloud Shell in Your Code Editor
 - Download Google Cloud SDK & Install
 
-## 3. Setup Firebase 
+#### 3. Setup Firebase 
 - Open [Firebase](https://firebase.google.com/), go to console & connect it To Google Cloud Project
 - Active Firebase Auth & Firebase Firestore
 - Make a **Service Account** and download the file
 
-## 4. Clone Project and Set Google Cloud account
+#### 4. Clone Project and Set Google Cloud account
 - Open your code editor (we recommend using Visual Studio Code)
 - open [TranslaSign-Backend]([-](https://github.com/fahmimramdan6/TranslaSign/tree/main/Cloud%20Computing)) and clone it to your local folder or use "git clone .-" in terminal
 - In terminal use "**git init**" and connect your google cloud account
 
-## 5. Set Project and Deploy Application to App Engine
+#### 5. Set Project and Deploy Application to App Engine
 - Set your project in the terminal by execute "gcloud config set project **your-project**"
 
 
-### 3. Mobile Documentation
+## 3. Mobile Documentation
 #### Objective
 Developing TranslaSign application for Android devices.
 
