@@ -33,13 +33,16 @@ const resizeImage = (image, width, height) => {
 const processFrame = async (framePath) => {
   const image = await loadImage(framePath);
 
+  // Ubah ukuran gambar menjadi 224x224
   const resizedCanvas = resizeImage(image, 224, 224);
   const input = tf.browser.fromPixels(resizedCanvas);
   
   const prediction = model.predict(input.expandDims(0));
 
+  // Dapatkan indeks kelas yang diprediksi (0 hingga 25)
   const predictedClassIndex = prediction.argMax(1).dataSync()[0];
   
+  // Peta indeks kelas yang diprediksi ke huruf yang sesuai (A adalah ASCII 65)
   const predictedLetter = String.fromCharCode(65 + predictedClassIndex);
   
   return predictedLetter;
@@ -52,6 +55,7 @@ exports.processVideo = async (videoBuffer) => {
   const outputDir = '/tmp/frames';
 
   try {
+    // Write the video buffer to a temporary file
     await fs.writeFile(tempVideoPath, videoBuffer);
 
     await fs.mkdir(outputDir, { recursive: true });
@@ -64,15 +68,15 @@ exports.processVideo = async (videoBuffer) => {
       const framePath = path.join(outputDir, frame);
       const transcript = await processFrame(framePath);
       transcripts.push(transcript);
-      await fs.unlink(framePath);
+      await fs.unlink(framePath); // Menghapus frame setelah diproses
     }
 
     return transcripts.join('');
   } catch (err) {
     console.error('Error processing video:', err);
-    throw err;
+    throw err; // Melemparkan error untuk ditangkap di lapisan yang lebih tinggi
   } finally {
-    
+    // Menghapus direktori sementara setelah selesai
     try {
       const files = await fs.readdir(outputDir);
       for (const file of files) {
@@ -80,7 +84,7 @@ exports.processVideo = async (videoBuffer) => {
         await fs.unlink(filePath);
       }
       await fs.rmdir(outputDir);
-      await fs.unlink(tempVideoPath);
+      await fs.unlink(tempVideoPath); // Menghapus video sementara
     } catch (err) {
       console.error('Error cleaning up temporary directory:', err);
     }
