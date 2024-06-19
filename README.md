@@ -1,6 +1,32 @@
 # TranslaSign
 This repository documents the process and components of the TranslaSign Application for Hand Sign Language Translation based on Hand Sign Detection.
 
+## Documentation Structure
+### 1. Model Documentation
+#### Objective
+Building a model for hand sign detection based on image recognition.
+
+#### Steps Taken
+
+1. *Data Collection:*
+   - Sourced relevant datasets for model training.
+   - Public datasets such as American Sign Language (ASL) datasets.
+
+2. *Model Training:*
+   - Data Splitting: Dividing the data into training, validation, and test sets.
+   - Model Architecture Selection: Choosing and implementing the appropriate model architecture, such as CNN for feature extraction. We also do transfer learning method from mobilenet model that   seems fit with our classification scenarios.
+   - Training and Evaluation: Training the model using the training data and evaluating its performance with the validation and test data. Also we do some local testing using webcam to provide more accuracy especially in real life applications.
+
+3. *Model Creation:*
+   - Saved the trained model as .h5 file.
+   - Convert model from hdf-5 format into deployment fit format such as .tflite and json.
+
+4. *Model Utilization:*
+   - Fine-tuned normalization techniques for image preprocessing.
+
+### 2. API Documentation
+### 3. Mobile Documentation
+
 ## Team Member
 All Team Member that contributed for the success of this project from discussing idea until part integration <br>
 Team ID: C241-PS507 <br>
