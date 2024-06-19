@@ -24,7 +24,7 @@ Building a model for hand sign detection based on image recognition.
 4. *Model Utilization:*
    - Fine-tuned normalization techniques for image preprocessing.
 
-### 2. API Documentation
+### 2. Cloud Documentation
 ### 3. Mobile Documentation
 #### Objective
 Developing TranslaSign application for Android devices.
