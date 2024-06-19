@@ -52,7 +52,6 @@ exports.processVideo = async (videoBuffer) => {
   const outputDir = '/tmp/frames';
 
   try {
-    // Write the video buffer to a temporary file
     await fs.writeFile(tempVideoPath, videoBuffer);
 
     await fs.mkdir(outputDir, { recursive: true });
