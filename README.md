@@ -1,7 +1,9 @@
 # TranslaSign
 This repository documents the process and components of the TranslaSign Application for Hand Sign Language Translation based on Hand Sign Detection.
-## Overview
 <p align="center"><img src="TranslaSign.jpg"></p>
+
+## Overview
+<p align="center"><img src="TranslaSignOverview.jpg"></p>
 
 ## Documentation Structure
 ## 1. Model Documentation
