@@ -10,6 +10,15 @@ This repository documents the process and components of the TranslaSign Applicat
 #### Objective
 Building a model for hand sign detection based on image recognition.
 
+#### Requirements
+* tensorflow 2.12.*
+* OpenCV
+* tensorflowjs
+* numpy
+* PIL
+* zipfile
+* os
+* shutil
 #### Steps Taken
 
 1. *Data Collection:*
