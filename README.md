@@ -1,5 +1,7 @@
 # TranslaSign
 This repository documents the process and components of the TranslaSign Application for Hand Sign Language Translation based on Hand Sign Detection.
+## Overview
+<p align="center"><img src="TranslaSign.jpg"></p>
 
 ## Documentation Structure
 ## 1. Model Documentation
@@ -14,7 +16,7 @@ Building a model for hand sign detection based on image recognition.
 
 2. *Model Training:*
    - Data Splitting: Dividing the data into training, validation, and test sets.
-   - Model Architecture Selection: Choosing and implementing the appropriate model architecture, such as CNN for feature extraction. We also do transfer learning method from mobilenet model that   seems fit with our classification scenarios.
+   - Model Architecture Selection: Choosing and implementing the appropriate model architecture, such as CNN for feature extraction. We also do transfer learning method from mobilenet (for cloud based classification) and VGG16 (for real time classification) model that seems fit with our classification scenarios.
    - Training and Evaluation: Training the model using the training data and evaluating its performance with the validation and test data. Also we do some local testing using webcam to provide more accuracy especially in real life applications.
 
 3. *Model Creation:*
