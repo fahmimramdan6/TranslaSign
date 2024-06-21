@@ -6,4 +6,7 @@
     <color name="blue">#5D93F7</color>
     <color name="red">#FA5853</color>
     <color name="yellow">#F7B940</color>
+    <color name="base_black">#242325</color>
+    <color name="bounding_box_color">#FF9800</color>
+    <color name="base_grey">#D9D9D9</color>
 </resources>
