@@ -92,7 +92,7 @@ Developing TranslaSign application for Android devices.
    - Conducted thorough testing to ensure seamless functionality.
    - Optimized the machine learning model used to enable hardware acceleration.
   
-You can download the APK [here](https://drive.google.com/file/d/1x8o6qb2LeBmVVTyTjIjBrD3H_cytsPtB/view?usp=drive_link).
+**You can download the APK [here](https://drive.google.com/file/d/1x8o6qb2LeBmVVTyTjIjBrD3H_cytsPtB/view?usp=drive_link).**
 
 ## Team Member
 All Team Member that contributed for the success of this project from discussing idea until part integration <br>
